@@ -1,0 +1,88 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 40px;
+    color: #000;
+    background: #fff;
+}
+
+.header {
+    text-align: center;
+    line-height: 1.2;
+    border-bottom: 3px solid #000;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+.header h4 { 
+    margin: 0; 
+    font-size: 14px; 
+    font-weight: normal; 
+}
+
+.header h2 { 
+    margin: 5px 0; 
+    font-size: 18px; 
+}
+
+.header h1 { 
+    margin: 5px 0; 
+    font-size: 20px; 
+    font-weight: bold; 
+}
+
+.cert-title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 30px 0;
+    text-decoration: underline;
+}
+
+.cert-body {
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 16px;
+    text-indent: 40px;
+}
+
+.signature-section {
+    margin-top: 80px;
+    float: right;
+    text-align: center;
+    width: 250px;
+}
+
+.signature-line {
+    border-top: 1px solid #000;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.print-controls {
+    margin-bottom: 20px; 
+    text-align: right;
+}
+
+.print-controls button {
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer;
+}
+
+.print-controls a {
+    padding: 10px 20px; 
+    background: #ccc; 
+    text-decoration: none; 
+    color: #000; 
+    margin-left: 10px;
+}
+
+@media print {
+    .no-print { 
+        display: none !important; 
+    }
+    body { 
+        padding: 0; 
+    }
+}
